@@ -5,12 +5,13 @@
 #include <editline/readline.h>
 #include <editline/history.h>
 
-#include "lbuiltin.h"
-#include "lval.h"
-#include "lenv.h"
+#include "lispy/errors.h"
+#include "lispy/builtins.h"
+#include "lispy/literals.h"
+#include "lispy/environment.h"
+
 #include "mpc.h"
 
-#include "commons/lerror.h"
 
 mpc_parser_t* Comment;
 mpc_parser_t* Number;

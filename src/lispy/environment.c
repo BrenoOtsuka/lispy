@@ -1,10 +1,9 @@
 #include <stdlib.h>
 
-#include "lbuiltin.h"
-#include "lval.h"
-#include "lenv.h"
-
-#include "commons/lerror.h"
+#include "lispy/errors.h"
+#include "lispy/builtins.h"
+#include "lispy/literals.h"
+#include "lispy/environment.h"
 
 
 lenv*

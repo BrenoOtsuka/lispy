@@ -1,9 +1,9 @@
-#include "lbuiltin.h"
-#include "lval.h"
-#include "lenv.h"
-#include "mpc.h"
+#include "lispy/errors.h"
+#include "lispy/builtins.h"
+#include "lispy/literals.h"
+#include "lispy/environment.h"
 
-#include "commons/lerror.h"
+#include "mpc.h"
 
 
 lval*
