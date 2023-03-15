@@ -287,9 +287,6 @@ ltype_name(int t) {
 }
 
 void
-lval_print(lval* v);
-
-void
 lval_print_expr(lval* v, char open, char close) {
     
     putchar(open);
@@ -376,12 +373,6 @@ lval_join(lval* x, lval* y) {
 
     return x;
 }
-
-lval*
-lval_call(lenv* e, lval* f, lval* a);
-
-lval*
-lval_eval(lenv* e, lval* v);
 
 lval*
 lval_eval_sexpr(lenv* e, lval* v) {
