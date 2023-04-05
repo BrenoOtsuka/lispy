@@ -3,7 +3,6 @@
 #include <errno.h>
 
 #include <editline/readline.h>
-#include <editline/history.h>
 
 #include "lispy/errors.h"
 #include "lispy/builtins.h"
